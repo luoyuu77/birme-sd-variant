@@ -1,4 +1,4 @@
-![Image of the Quality Preset dropdown box in the "Image Format / Quality settings]([https://i.imgur.com/j2Uh1KJ.png](https://raw.githubusercontent.com/luoyuu77/birme-sd-variant/main/birme.jpg))
+![Image of the Quality Preset dropdown box in the "Image Format / Quality settings](https://raw.githubusercontent.com/luoyuu77/birme-sd-variant/main/birme.jpg)
 
 # Birme Variant for Stable Diffusion汉化版
 在训练 Stable Diffusion (或其他生成图像模型) 我们需要高质量且裁剪成512x512的训练图像。Birme是快速完成此任务的最佳工具，并借助 [smartcrop.js](https://github.com/jwagner/smartcrop.js/)的帮助，它确实是一个强大的批量裁剪图像工具。
