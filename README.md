@@ -1,7 +1,9 @@
 # -> [Demo Site](https://storage.googleapis.com/birme-sd-variant/index.html?target_width=512&target_height=512) <-
 
-# Birme Variant for Stable Diffusion
+# Birme Variant for Stable Diffusion汉化版
 在训练 Stable Diffusion (或其他生成图像模型) 我们需要高质量且裁剪成512x512的训练图像。Birme是快速完成此任务的最佳工具，并借助 [smartcrop.js](https://github.com/jwagner/smartcrop.js/)的帮助，它确实是一个强大的批量裁剪图像工具。
+1. 中文汉化
+2. 无损模式
 
 ## 本地安装
 克隆该仓库并在您喜欢的浏览器（不包括Firefox）中打开index.html。随时添加书签！
@@ -10,7 +12,15 @@ git clone https://github.com/luoyuu77/birme-sd-variant.git
 cd birme-sd-variant
 python -m webbrowser index.html   # 或者直接打开index.html文件
 ```
-
+## 使用Docker运行
+```bash
+docker run -d \
+  --name birme \
+  --restart always \
+  -p 9093:80 \
+luoyuu77/birme:latest
+#  打开浏览器访问 => http://<HOST_IP>:9093
+```
 ## 使用Docker-Compose运行
 ```bash
 git clone https://github.com/luoyuu77/birme-sd-variant.git
